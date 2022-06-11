@@ -1,9 +1,11 @@
 let txt1 = 'Uwielbiam JavaScript';
-let txt2 = 'Jestem świetnym programistą'
+let txt2 = 'Jestem świetnym programistą';
 
 function result(a, b) {
-    let textFinal = a + ", " + b
-    txt2;
-    return textFinal;
+    if (a.length > b.length) {
+        return a
+    } else(a.length < b.length); {
+        return b
+    }
 }
-console.log(result(txt1, txt2))
+console.log(result(txt1, txt2));
